@@ -152,7 +152,7 @@ textarea:active,
 button,
 button:hover,
 button:active {
-  // outline: 0;
+  outline: 0;
   outline-color: rgb(77, 144, 254);
   text-decoration: none;
 }
@@ -161,7 +161,7 @@ a:focus,
 input:focus,
 textarea:focus,
 button:focus {
-  // outline: 0;
+  outline: 0;
   outline-color: rgb(77, 144, 254);
 }
 
@@ -191,6 +191,7 @@ pre {
 
 a {
   background-color: transparent;
+  cursor: pointer;
 }
 
 abbr[title] {

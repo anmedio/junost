@@ -1,1 +1,10 @@
-.btn{}
+.btn {
+  background-color: $c-yellow;
+  display: inline-flex;
+  align-items: center;
+  font-size: 1.4rem;
+  line-height: 1;
+  font-weight: bold;
+  padding: 9px 12px;
+  border-radius: 3px;
+}

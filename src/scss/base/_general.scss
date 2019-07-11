@@ -1,4 +1,28 @@
 * {
-	box-sizing: border-box;
-	font-family: $f-base;
+  box-sizing: border-box;
+  font-family: $f-base;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+  font-family: $f-base;
+}
+
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  min-width: 320px;
+  font-family: $f-base;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: $c-dark;
+  overflow-x: hidden;
+}
+
+.main {
+  display: block;
+  flex: 1 0 auto;
 }

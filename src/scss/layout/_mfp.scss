@@ -1,0 +1,48 @@
+.mfp-anim {
+  &.mfp-bg,
+  &.mfp-wrap {
+    opacity: 0;
+    transition: opacity 0.2s ease-out;
+
+    &.mfp-ready {
+      opacity: 1;
+    }
+
+    &.mfp-removing {
+      opacity: 0;
+    }
+  }
+}
+
+.mfp-bg {
+  background-color: rgba($c-dark, 0.7);
+}
+
+.mfp-inline-holder .mfp-content {
+  width: auto;
+}
+
+.mfp-close {
+  font-size: 30px;
+  opacity: 1;
+  top: 5px;
+  right: 5px;
+
+  // Media
+  @include grid-media($md-grid) {
+    top: 8px;
+  }
+
+  &:active {
+    top: 6px;
+
+    // Media
+    @include grid-media($md-grid) {
+      top: 9px;
+    }
+  }
+
+  &:hover {
+    opacity: 0.65;
+  }
+}

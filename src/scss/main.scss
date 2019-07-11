@@ -1,24 +1,11 @@
 @import 'neat';
 
-@import
-	'helpers/vars',
-	'helpers/mixins';
+@import 'helpers/mixins', 'helpers/vars';
 
-@import
-	'base/grid',
-	'base/font-face',
-	'base/reset',
-	'base/general';
+@import 'base/grid', 'base/font-face', 'base/reset', 'base/general';
 
-@import
-	'ui/buttons',
-	'ui/loader',
-	'ui/typography';
+@import 'ui/buttons', 'ui/loader', 'ui/typography';
 
-@import
-	'layout/grid',
-	'layout/header',
-	'layout/footer';
+@import 'layout/grid', 'layout/header', 'layout/footer', 'layout/mfp';
 
-@import
-	'blocks/main';
+@import 'blocks/main', 'blocks/grade';

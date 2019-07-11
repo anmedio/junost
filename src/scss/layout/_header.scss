@@ -1,9 +1,106 @@
 .header {
+  padding: 31px 0;
+  position: relative;
+
+  // Media
+  @include grid-media($md-grid) {
+    padding: 50px 0 55px;
+  }
+
+  @include grid-media($lg-grid) {
+    padding: 57px 0 59px;
+  }
+
+  @include grid-media($xl-grid) {
+    padding: 65px 0 75px;
+  }
+
+  &__wrap {
+    // Media
+    @include grid-media($md-grid) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
   &__title {
     font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-bottom: 27px;
+
+    // Media
+    @media screen and (max-width: $md-media - 1) {
+      margin-right: 40px;
+    }
+
+    @include grid-media($md-grid) {
+      font-size: 1.8rem;
+    }
+
+    @include grid-media($lg-grid) {
+      font-size: 2.4rem;
+    }
+
+    @include grid-media($xl-grid) {
+      font-size: 3.2rem;
+    }
 
     span {
       color: $c-primary;
+    }
+  }
+
+  &__logo {
+    width: 32px;
+    height: 32px;
+
+    // Media
+    @media screen and (max-width: $md-media - 1) {
+      position: absolute;
+      top: 0px;
+      right: 20px;
+    }
+
+    @include grid-media($md-grid) {
+      margin-top: 3px;
+    }
+
+    @include grid-media($lg-grid) {
+      margin-top: 7px;
+    }
+
+    @include grid-media($xl-grid) {
+      margin-top: 8px;
+    }
+  }
+
+  &__descr {
+    color: $c-grey-text;
+    font-size: 1.2rem;
+
+    // Media
+    @include grid-media($md-grid) {
+      width: 327px;
+    }
+
+    @include grid-media($lg-grid) {
+      font-size: 1.4rem;
+      width: 452px;
+      margin-top: 5px;
+    }
+
+    @include grid-media($xl-grid) {
+      width: 385px;
+    }
+
+    p + p {
+      margin-top: 14px;
+
+      // Media
+      @include grid-media($lg-grid) {
+        margin-top: 19px;
+      }
     }
   }
 }
