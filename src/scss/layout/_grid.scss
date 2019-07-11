@@ -1,0 +1,43 @@
+.container {
+  width: $xs-content;
+  padding: 0 22px;
+  margin: 0 auto;
+  position: relative;
+
+  // media
+  @include grid-media($md-grid) {
+    width: $md-content + $md-grid-gutter;
+    padding: 0 $md-grid-gutter/2;
+  }
+
+  @include grid-media($lg-grid) {
+    width: $lg-content + $lg-grid-gutter;
+    padding: 0 $lg-grid-gutter/2;
+  }
+
+  @include grid-media($xl-grid) {
+    width: $xl-content + $xl-grid-gutter;
+    padding: 0 $xl-grid-gutter/2;
+  }
+}
+
+.row {
+  @include grid-container;
+
+  //media
+  @include grid-media($xs-grid) {
+    @include grid-collapse;
+  }
+
+  @include grid-media($md-grid) {
+    @include grid-collapse;
+  }
+
+  @include grid-media($lg-grid) {
+    @include grid-collapse;
+  }
+
+  @include grid-media($xl-grid) {
+    @include grid-collapse;
+  }
+}

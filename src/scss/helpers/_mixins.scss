@@ -1,0 +1,41 @@
+// Font face
+@mixin font-face($name, $subname, $path, $weight: normal, $style: normal, $exts: woff2 woff ttf eot) {
+	$src: null;
+
+	$extmods: (
+		eot: "?#iefix"
+	);
+
+	$formats: (
+		ttf: "truetype"
+	);
+
+	@each $ext in $exts {
+		$extmod: if(map-has-key($extmods, $ext), $ext + map-get($extmods, $ext), $ext);
+		$format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+		$src: append($src, url(quote($path + "/" + $name + "-" + $subname + "." + $extmod)) format(quote($format)), comma);
+	}
+
+	@font-face {
+		font-family: quote($name);
+		src: url(quote($path + "/" + $name + "-" + $subname + ".eot"));
+		src: $src;
+		font-weight: $weight;
+		font-style: $style;
+	}
+}
+
+// Placeholder mixin
+@mixin placeholder {
+	&.placeholder { @content; }
+	&:-moz-placeholder { @content; }
+	&::-moz-placeholder { @content; }
+	&:-ms-input-placeholder { @content; }
+	&::-webkit-input-placeholder { @content; }
+}
+
+// Before & after absolute
+@mixin pseudo {
+	content: '';
+	position: absolute;
+}

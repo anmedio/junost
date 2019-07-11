@@ -1,0 +1,9 @@
+.header {
+  &__title {
+    font-weight: bold;
+
+    span {
+      color: $c-primary;
+    }
+  }
+}
