@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import PropTypes from 'prop-types';
 
-const githubUrl = '//anmedio.ru';
+const githubUrl = 'https://github.com/anmedio/grades';
 
 // Components
 import SkillPopup from '~/components/skillPopup';

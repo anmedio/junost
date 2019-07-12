@@ -2,7 +2,6 @@ import React from 'react';
 
 const SkillPopup = (d) => {
 	const { data } = d;
-	console.log(data);
 	let links = null;
 	if (data.links) {
 		links = data.links.map(l => {
