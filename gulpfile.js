@@ -21,7 +21,7 @@ const pug = require('gulp-pug'),
 			del = require('del');
 
 const clean = () => {
-	return del('dist/*');
+	return del('docs/*');
 };
 
 const html = () => {
@@ -30,7 +30,7 @@ const html = () => {
 			errorHandler: notify.onError('👻 <%= error.message %>')
 		}))
     .pipe(pug({ pretty: true }))
-    .pipe(dest('dist/'))
+    .pipe(dest('docs/'))
 		.pipe(reload({ stream: true }))
 };
 
@@ -46,7 +46,7 @@ const css = () => {
 		}))
 		.pipe(rename('main.min.css'))
 		.pipe(sourcemaps.write('./'))
-		.pipe(dest('dist/static/css/'))
+		.pipe(dest('docs/static/css/'))
 		.pipe(reload({ stream: true }))	
 };
 
@@ -58,13 +58,13 @@ const js = () => {
 		.pipe(babel({
 			presets: ['@babel/env']
 		}))
-		.pipe(dest('dist/static/js'))
+		.pipe(dest('docs/static/js'))
 		.pipe(reload({ stream: true }))
 };
 
 const fonts = () => {
 	return src('src/fonts/**/*.*')
-		.pipe(dest('dist/static/fonts'))
+		.pipe(dest('docs/static/fonts'))
 };
 
 const images = () => {
@@ -76,14 +76,14 @@ const images = () => {
 		], {
 			verbose: true
 		}))
-		.pipe(dest('dist/static/img'))
+		.pipe(dest('docs/static/img'))
 };
 
 const assetsCss = () => {
 	return src('src/assets/**/*.css')
 		.pipe(concat('assets.css'))
 		.pipe(cleanCSS())
-		.pipe(dest('./dist/static/assets'))
+		.pipe(dest('./docs/static/assets'))
 		.pipe(reload({ stream: true }))
 };
 
@@ -91,7 +91,7 @@ const assetsJs = () => {
 	return src('src/assets/**/*.js')
 		.pipe(concat('assets.js'))
 		.pipe(uglify())
-		.pipe(dest('./dist/static/assets'))
+		.pipe(dest('./docs/static/assets'))
 		.pipe(reload({ stream: true }))
 };
 
@@ -106,7 +106,7 @@ const watching = () => {
 const browser = () => {
 	browserSync.init({
 		server: {
-			baseDir: './dist'
+			baseDir: './docs'
 		},
 		port: 3000,
 		notify: false

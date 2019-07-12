@@ -1,6 +1,11 @@
-// eslint-disable-next-line func-names
-// $(document).ready(function() {
+"use strict";
 
+// eslint-disable-next-line func-names
+$(document).ready(function () {// $('.grade-section__title').on('click', ({ target }) => {
+  //   $(target)
+  //     .parents('.grade-section')
+  //     .toggleClass('is-open');
+  // });
   // $('.grade-section__slider')
   //   .addClass('owl-carousel owl-theme')
   //   .owlCarousel({
@@ -24,9 +29,7 @@
   //       },
   //     },
   //   });
-
   // const src = $('#popup');
-
   // $('.grade__item').magnificPopup({
   //   removalDelay: 250,
   //   items: {
@@ -39,4 +42,4 @@
   //     },
   //   },
   // });
-// });
+});
