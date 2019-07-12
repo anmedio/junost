@@ -558,7 +558,10 @@ body {
   padding: 26px 0 30px;
   overflow: hidden;
   position: relative;
-  height: 233px; }
+  height: 233px;
+  -webkit-transition: 0.25s ease;
+  -o-transition: 0.25s ease;
+  transition: 0.25s ease; }
   @media only screen and (min-width: 768px) {
     .grade-section {
       padding: 40px 0;
@@ -615,7 +618,10 @@ body {
         -ms-flex-align: center;
             align-items: center;
     -ms-flex-negative: 0;
-        flex-shrink: 0; }
+        flex-shrink: 0;
+    -webkit-transition: 0.25s ease;
+    -o-transition: 0.25s ease;
+    transition: 0.25s ease; }
     @media only screen and (min-width: 768px) {
       .grade-section__title {
         width: 150px;
@@ -667,7 +673,9 @@ body {
                 transform: rotate(90deg); }
   @media only screen and (min-width: 768px) {
     .grade-section .grade__title {
-      display: none; } }
+      max-height: 1px;
+      height: auto;
+      overflow: hidden; } }
   .grade-section.is-open {
     height: auto; }
     .grade-section.is-open::after {
@@ -685,7 +693,7 @@ body {
               transform: rotate(0); }
     @media only screen and (min-width: 768px) {
       .grade-section.is-open .grade__title {
-        display: block; } }
+        max-height: 100px; } }
   @media only screen and (min-width: 768px) {
     .grade-section__wrap {
       display: -webkit-box;
@@ -730,7 +738,10 @@ body {
       -ms-flex-align: start;
           align-items: flex-start; }
   .grade__title {
-    margin-bottom: 18px; }
+    margin-bottom: 18px;
+    -webkit-transition: 0.25s ease;
+    -o-transition: 0.25s ease;
+    transition: 0.25s ease; }
     @media only screen and (min-width: 768px) {
       .grade__title {
         margin-bottom: 27px; } }

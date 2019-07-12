@@ -5,6 +5,7 @@
   overflow: hidden;
   position: relative;
   height: 233px;
+  transition: $trans;
 
   // Media
   @include grid-media($md-grid) {
@@ -69,6 +70,7 @@
     display: inline-flex;
     align-items: center;
     flex-shrink: 0;
+    transition: $trans;
 
     // Media
     @include grid-media($md-grid) {
@@ -124,7 +126,9 @@
   .grade__title {
     // Media
     @include grid-media($md-grid) {
-      display: none;
+      max-height: 1px;
+      height: auto;
+      overflow: hidden;
     }
   }
 
@@ -159,7 +163,7 @@
     .grade__title {
       // Media
       @include grid-media($md-grid) {
-        display: block;
+        max-height: 100px;
       }
     }
   }
@@ -212,6 +216,7 @@
 
   &__title {
     margin-bottom: 18px;
+    transition: $trans;
 
     // Media
     @include grid-media($md-grid) {
