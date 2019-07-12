@@ -1,13 +1,11 @@
 import React from 'react';
 import { render } from 'react-dom';
-import Promise from 'promise-polyfill';
-import 'whatwg-fetch';
 
-// Routing
-import routes from './router';
+// Content
+import grades from '~/grades';
 
 // Components
-import TestPage from '~/pages/test';
+import Grades from '~/pages/grades';
 
 if (!window.Promise) {
   window.Promise = Promise;
@@ -15,8 +13,8 @@ if (!window.Promise) {
 
 const components = [
   {
-    component: <TestPage routes={routes.test} />,
-    target: document.getElementById('test'),
+    component: <Grades data={grades} />,
+    target: document.getElementById('grades'),
   }
 ];
 

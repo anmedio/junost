@@ -6,7 +6,7 @@ const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin');
 module.exports = {
   entry: ['@babel/polyfill', './src/react/index.jsx'],
   output: {
-    path: path.join(__dirname, '/dist/static/js'),
+    path: path.join(__dirname, '/docs/static/js'),
     filename: 'bundle.js',
     publicPath: '/static/',
   },
