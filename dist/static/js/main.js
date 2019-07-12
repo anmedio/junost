@@ -4,7 +4,10 @@
 $(document).ready(function () {
   $('.grade-section__title').on('click', function (_ref) {
     var target = _ref.target;
-    $(target).parents('.grade-section').toggleClass('is-open');
+    $(target).parents('.grade-section').toggleClass('is-open'); // $(target)
+    //   .parents('.grade-section')
+    //   .find('.grade__title')
+    //   .slideToggle(250);
   });
   $('.grade-section__slider').addClass('owl-carousel owl-theme').owlCarousel({
     loop: false,

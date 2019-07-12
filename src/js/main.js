@@ -4,6 +4,11 @@ $(document).ready(function() {
     $(target)
       .parents('.grade-section')
       .toggleClass('is-open');
+
+    // $(target)
+    //   .parents('.grade-section')
+    //   .find('.grade__title')
+    //   .slideToggle(250);
   });
 
   $('.grade-section__slider')

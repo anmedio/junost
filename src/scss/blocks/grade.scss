@@ -126,8 +126,7 @@
   .grade__title {
     // Media
     @include grid-media($md-grid) {
-      max-height: 1px;
-      height: auto;
+      max-height: 0;
       overflow: hidden;
     }
   }
@@ -163,7 +162,8 @@
     .grade__title {
       // Media
       @include grid-media($md-grid) {
-        max-height: 100px;
+        max-height: 30px;
+        margin-bottom: 25px;
       }
     }
   }
@@ -220,7 +220,7 @@
 
     // Media
     @include grid-media($md-grid) {
-      margin-bottom: 27px;
+      margin-bottom: 0;
     }
   }
 

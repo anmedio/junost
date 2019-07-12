@@ -673,8 +673,7 @@ body {
                 transform: rotate(90deg); }
   @media only screen and (min-width: 768px) {
     .grade-section .grade__title {
-      max-height: 1px;
-      height: auto;
+      max-height: 0;
       overflow: hidden; } }
   .grade-section.is-open {
     height: auto; }
@@ -693,7 +692,8 @@ body {
               transform: rotate(0); }
     @media only screen and (min-width: 768px) {
       .grade-section.is-open .grade__title {
-        max-height: 100px; } }
+        max-height: 30px;
+        margin-bottom: 25px; } }
   @media only screen and (min-width: 768px) {
     .grade-section__wrap {
       display: -webkit-box;
@@ -744,7 +744,7 @@ body {
     transition: 0.25s ease; }
     @media only screen and (min-width: 768px) {
       .grade__title {
-        margin-bottom: 27px; } }
+        margin-bottom: 0; } }
   .grade__block {
     margin-bottom: 15px;
     display: -webkit-box;
