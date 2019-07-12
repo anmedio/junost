@@ -1,6 +1,5 @@
 // eslint-disable-next-line func-names
 // $(document).ready(function() {
-
 // $('.grade-section__slider')
 //   .addClass('owl-carousel owl-theme')
 //   .owlCarousel({
@@ -24,9 +23,7 @@
 //       },
 //     },
 //   });
-
 // const src = $('#popup');
-
 // $('.grade__item').magnificPopup({
 //   removalDelay: 250,
 //   items: {
@@ -40,3 +37,4 @@
 //   },
 // });
 // });
+"use strict";
