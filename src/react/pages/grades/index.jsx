@@ -33,15 +33,15 @@ class Grades extends Component {
         responsive: {
           768: {
             items: 1,
-            margin: 30,
+            margin: 20,
           },
           1024: {
             items: 2,
-            margin: 40,
+            margin: 30,
           },
           1440: {
             items: 2,
-            margin: 55,
+            margin: 35,
           },
         },
       });

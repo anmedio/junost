@@ -7,7 +7,11 @@
 //     items: 1,
 //     dots: false,
 //     nav: false,
+<<<<<<< HEAD
+//     margin: 10,
+=======
 //     margin: 15,
+>>>>>>> master
 //     responsive: {
 //       768: {
 //         items: 1,
