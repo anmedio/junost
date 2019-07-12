@@ -4,11 +4,6 @@ $(document).ready(function() {
     $(target)
       .parents('.grade-section')
       .toggleClass('is-open');
-
-    // $(target)
-    //   .parents('.grade-section')
-    //   .find('.grade__title')
-    //   .slideToggle(250);
   });
 
   $('.grade-section__slider')
@@ -18,7 +13,7 @@ $(document).ready(function() {
       items: 1,
       dots: false,
       nav: false,
-      margin: 15,
+      margin: 10,
       responsive: {
         768: {
           items: 1,

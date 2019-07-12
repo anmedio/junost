@@ -4,17 +4,14 @@
 $(document).ready(function () {
   $('.grade-section__title').on('click', function (_ref) {
     var target = _ref.target;
-    $(target).parents('.grade-section').toggleClass('is-open'); // $(target)
-    //   .parents('.grade-section')
-    //   .find('.grade__title')
-    //   .slideToggle(250);
+    $(target).parents('.grade-section').toggleClass('is-open');
   });
   $('.grade-section__slider').addClass('owl-carousel owl-theme').owlCarousel({
     loop: false,
     items: 1,
     dots: false,
     nav: false,
-    margin: 15,
+    margin: 10,
     responsive: {
       768: {
         items: 1,
