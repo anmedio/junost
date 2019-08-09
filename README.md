@@ -5,3 +5,23 @@
 Есть предложения по добавлению/изменению/удалению какого-либа скилла из грейдов? Скорректируйте [контентный json](https://github.com/anmedio/grades/blob/master/src/react/grades.js) и отправьте pull request или [напишите issue](https://github.com/anmedio/grades/issues).
 
 [Открыть грейды](https://anmedio.github.io/grades/)
+
+## Develop mode
+
+Чтобы запустить проект в режиме разрабочика вам потребуется открыть два окна в терминале и запустить скрипты:
+
+```bash
+  npm run start
+```
+
+```bash
+  npm run dev
+```
+
+Также Вам необходимо в файле 'src/pug/includes/_js.pug' внести изменения в строчку с импортируемы скриптами (просто раскомментировать её):
+
+```javascript
+script(src="http://localhost:8080/static/bundle.js")
+```
+
+Данное действие необходимо для включение девелопмент-бандла, это будет исправлено в следующей версии проекта
