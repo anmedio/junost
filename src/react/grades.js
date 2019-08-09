@@ -121,6 +121,10 @@ const grades = [
                 name: 'Официальный сайт Figma',
               },
               {
+                url: 'https://htmlacademy.ru/blog/useful/figma
+                name: 'HTMLacademy - "Старт в Figma для верстальщика"',
+              },
+              {
                 url: 'https://coursehunters.net/course/izuchaem-figma',
                 name: 'Курс "Mastering Figma"',
               },
