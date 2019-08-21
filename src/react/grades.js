@@ -47,7 +47,7 @@ const grades = [
             tag: 'Markdown',
             name: 'Markdown',
             text:
-              'Markdown — облегчённый язык разметки, созданный с целью написаниянаиболее читаемого и удобного для правки текста, но пригодного для преобразования в языки для продвинутых публикаций.',
+              'Markdown — облегчённый язык разметки, созданный с целью написания наиболее читаемого и удобного для правки текста, но пригодного для преобразования в языки для продвинутых публикаций.',
             links: [
               {
                 url:
@@ -121,6 +121,10 @@ const grades = [
                 name: 'Официальный сайт Figma',
               },
               {
+                url: 'https://htmlacademy.ru/blog/useful/figma',
+                name: 'HTMLacademy - "Старт в Figma для верстальщика"',
+              },
+              {
                 url: 'https://coursehunters.net/course/izuchaem-figma',
                 name: 'Курс "Mastering Figma"',
               },
@@ -189,6 +193,12 @@ const grades = [
               {
                 url: 'https://www.youtube.com/watch?v=lEfp6_ByY-Q',
                 name: 'Loftblog - "AJAX. Настройка и отправка AJAX запросов"',
+              },
+              {
+                url:
+                  'https://www.youtube.com/watch?v=wMMki2FEYGY&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0&index=53',
+                name:
+                  'Тимур Шемсединов - "HTTP запросы в браузере и Node.js: XMLHttpRequest, fetch"',
               },
             ],
           },
@@ -575,7 +585,8 @@ const grades = [
                 name: 'Hexlet Guides - "Что такое SSH"',
               },
               {
-                url: 'https://help.github.com/en/articles/connecting-to-github-with-ssh',
+                url:
+                  'https://help.github.com/en/articles/connecting-to-github-with-ssh',
                 name: 'Connecting to GitHub with SSH',
               },
             ],
@@ -1833,7 +1844,7 @@ const grades = [
             tag: 'Markdown',
             name: 'Markdown',
             text:
-              'Markdown — облегчённый язык разметки, созданный с целью написаниянаиболее читаемого и удобного для правки текста, но пригодного для преобразования в языки для продвинутых публикаций.',
+              'Markdown — облегчённый язык разметки, созданный с целью написания наиболее читаемого и удобного для правки текста, но пригодного для преобразования в языки для продвинутых публикаций.',
             links: [
               {
                 url:
@@ -1945,6 +1956,12 @@ const grades = [
               {
                 url: 'https://www.youtube.com/watch?v=lEfp6_ByY-Q',
                 name: 'Loftblog - "AJAX. Настройка и отправка AJAX запросов"',
+              },
+              {
+                url:
+                  'https://www.youtube.com/watch?v=wMMki2FEYGY&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0&index=53',
+                name:
+                  'Тимур Шемсединов - "HTTP запросы в браузере и Node.js: XMLHttpRequest, fetch"',
               },
             ],
           },
@@ -2390,7 +2407,8 @@ const grades = [
               },
               {
                 url: 'https://www.youtube.com/watch?v=2XZKDhSRCMY&t=3s',
-                name: 'Aida Drogan - "Диспетчер процессов pm2. Выход node.js-сервера в свет."',
+                name:
+                  'Aida Drogan - "Диспетчер процессов pm2. Выход node.js-сервера в свет."',
               },
             ],
           },
@@ -2405,7 +2423,8 @@ const grades = [
                 name: 'Hexlet Guides - "Что такое SSH"',
               },
               {
-                url: 'https://help.github.com/en/articles/connecting-to-github-with-ssh',
+                url:
+                  'https://help.github.com/en/articles/connecting-to-github-with-ssh',
                 name: 'Connecting to GitHub with SSH',
               },
             ],
