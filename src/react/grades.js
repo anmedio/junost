@@ -1797,7 +1797,7 @@ const grades = [
     ],
   },
   {
-    name: 'Nodejs',
+    name: 'NodeJS',
     levels: [
       /**
        *

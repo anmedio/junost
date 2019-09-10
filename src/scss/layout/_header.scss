@@ -79,6 +79,11 @@
     color: $c-grey-text;
     font-size: 1.2rem;
 
+    a {
+      color: $c-primary;
+      border-bottom: 1px dashed;
+    }
+
     // Media
     @include grid-media($md-grid) {
       width: 327px;

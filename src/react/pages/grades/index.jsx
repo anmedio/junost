@@ -6,6 +6,7 @@ const githubUrl = 'https://github.com/anmedio/grades';
 
 // Components
 import SkillPopup from '~/components/skillPopup';
+import OnboardingPopup from '~/components/onboardingPopup';
 
 class Grades extends Component {
   static propTypes = {
@@ -22,6 +23,9 @@ class Grades extends Component {
   }
 
   componentDidMount() {
+    if (localStorage.getItem('onboarding') != 'true')
+      this.showOnboarding();
+
     $('.grade-section__slider')
       .addClass('owl-carousel owl-theme')
       .owlCarousel({
@@ -45,6 +49,27 @@ class Grades extends Component {
           },
         },
       });
+  }
+
+  showOnboarding() {
+    $.magnificPopup.open({
+      items: {
+        src: '#popup',
+        type: 'inline'
+      },
+      removalDelay: 250,
+      callbacks: {
+        beforeOpen() {
+          this.st.mainClass = 'mfp-anim';
+        },
+        open() {
+          render(<OnboardingPopup />, $('#popup')[0]);
+        },
+        close() {
+          render(<div />, $('#popup')[0]);
+        },
+      },
+    });
   }
 
   toggleOpened(name) {

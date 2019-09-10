@@ -6,6 +6,7 @@ import grades from '~/grades';
 
 // Components
 import Grades from '~/pages/grades';
+import OnboardingPopup from '~/components/onboardingPopup';
 
 if (!window.Promise) {
   window.Promise = Promise;
@@ -23,3 +24,24 @@ $(() => {
     if (item.target) render(item.component, item.target);
   });
 });
+
+$('.about').click(() => {
+	$.magnificPopup.open({
+    items: {
+      src: '#popup',
+      type: 'inline'
+    },
+    removalDelay: 250,
+    callbacks: {
+      beforeOpen() {
+        this.st.mainClass = 'mfp-anim';
+      },
+      open() {
+        render(<OnboardingPopup />, $('#popup')[0]);
+      },
+      close() {
+        render(<div />, $('#popup')[0]);
+      },
+    },
+  });
+})

@@ -2,8 +2,15 @@ header.header
 	.container.header__wrap
 		h1.header__title Digital
 			span opensource
+			#fb-root
+			script(async='', defer='', crossorigin='anonymous', src='https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v4.0&appId=2504370636459317&autoLogAppEvents=1')
+			.fb-like(data-href='https://anmedio.github.io/grades/', data-width='', data-layout='button_count', data-action='like', data-size='small', data-show-faces='true', data-share='false')
+
 		.header__descr
 			p Объективные грейды для развития специалистов сферы digital, предложенные и развиваемые профессиональным сообществом.
+
+			br
+			a.about О проекте
 
 		a(href="https://github.com/anmedio/grades" target="_blank")
 			img.header__logo(src="static/img/logo.svg" alt="git")
