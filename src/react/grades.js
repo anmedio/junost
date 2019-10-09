@@ -1,4 +1,9 @@
 const grades = [
+  /**
+   *
+   *  Frontend
+   *
+   */
   {
     name: 'Frontend',
     levels: [
@@ -1796,6 +1801,11 @@ const grades = [
       },
     ],
   },
+  /**
+   *
+   *  NodeJS
+   *
+   */
   {
     name: 'NodeJS',
     levels: [
@@ -3790,6 +3800,254 @@ const grades = [
                 name: 'ADV-IT - "AWS На Русском Языке"',
               },
             ],
+          },
+        ],
+      },
+    ],
+  },
+  /**
+   *
+   *  Java
+   *
+   */
+  {
+    name: 'Java',
+    levels: [
+      /**
+       *
+       *  Java - Junior
+       *
+       */
+      {
+        name: 'Junior',
+        skills: [
+          {
+            tag: 'Скоро',
+            name: 'Скоро',
+            text:
+            'Скоро',
+            links: [],
+          },
+        ],
+      },
+      /**
+       *
+       *  Java - Middle
+       *
+       */
+      {
+        name: 'Junior',
+        skills: [
+          {
+            tag: 'Скоро',
+            name: 'Скоро',
+            text:
+            'Скоро',
+            links: [],
+          },
+        ],
+      },
+
+      /**
+       *
+       *  Java - Senior
+       *
+       */
+      {
+        name: 'Junior',
+        skills: [
+          {
+            tag: 'Скоро',
+            name: 'Скоро',
+            text:
+            'Скоро',
+            links: [],
+          },
+        ],
+      },
+    ],
+  },
+  /**
+   *
+   *  PHP
+   *
+   */
+  {
+    name: 'PHP',
+    levels: [
+      /**
+       *
+       *  PHP - Junior
+       *
+       */
+      {
+        name: 'Junior',
+        skills: [
+          {
+            tag: 'Скоро',
+            name: 'Скоро',
+            text:
+            'Скоро',
+            links: [],
+          },
+        ],
+      },
+      /**
+       *
+       *  PHP - Middle
+       *
+       */
+      {
+        name: 'Middle',
+        skills: [
+          {
+            tag: 'Скоро',
+            name: 'Скоро',
+            text:
+            'Скоро',
+            links: [],
+          },
+        ],
+      },
+
+      /**
+       *
+       *  PHP - Senior
+       *
+       */
+      {
+        name: 'Senior',
+        skills: [
+          {
+            tag: 'Скоро',
+            name: 'Скоро',
+            text:
+            'Скоро',
+            links: [],
+          },
+        ],
+      },
+    ],
+  },
+  /**
+   *
+   *  iOS
+   *
+   */
+  {
+    name: 'iOS',
+    levels: [
+      /**
+       *
+       *  iOS - Junior
+       *
+       */
+      {
+        name: 'Junior',
+        skills: [
+          {
+            tag: 'Скоро',
+            name: 'Скоро',
+            text:
+            'Скоро',
+            links: [],
+          },
+        ],
+      },
+      /**
+       *
+       *  iOS - Middle
+       *
+       */
+      {
+        name: 'Middle',
+        skills: [
+          {
+            tag: 'Скоро',
+            name: 'Скоро',
+            text:
+            'Скоро',
+            links: [],
+          },
+        ],
+      },
+
+      /**
+       *
+       *  iOS - Senior
+       *
+       */
+      {
+        name: 'Senior',
+        skills: [
+          {
+            tag: 'Скоро',
+            name: 'Скоро',
+            text:
+            'Скоро',
+            links: [],
+          },
+        ],
+      },
+    ],
+  },
+  /**
+   *
+   *  Android
+   *
+   */
+  {
+    name: 'Android',
+    levels: [
+      /**
+       *
+       *  Android - Junior
+       *
+       */
+      {
+        name: 'Junior',
+        skills: [
+          {
+            tag: 'Скоро',
+            name: 'Скоро',
+            text:
+            'Скоро',
+            links: [],
+          },
+        ],
+      },
+      /**
+       *
+       *  Android - Middle
+       *
+       */
+      {
+        name: 'Middle',
+        skills: [
+          {
+            tag: 'Скоро',
+            name: 'Скоро',
+            text:
+            'Скоро',
+            links: [],
+          },
+        ],
+      },
+
+      /**
+       *
+       *  Android - Senior
+       *
+       */
+      {
+        name: 'Senior',
+        skills: [
+          {
+            tag: 'Скоро',
+            name: 'Скоро',
+            text:
+            'Скоро',
+            links: [],
           },
         ],
       },
