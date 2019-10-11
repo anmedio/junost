@@ -611,7 +611,7 @@ const grades = [
                 name: 'Скринкаст Ильи Кантора',
               },
               {
-                url: 'https://learngitbranching.js.org,
+                url: 'https://learngitbranching.js.org',
                 name: 'Learn Git Branching',
               },
               {
@@ -2458,7 +2458,7 @@ const grades = [
                 name: 'Скринкаст Ильи Кантора',
               },
               {
-                url: 'https://learngitbranching.js.org,
+                url: 'https://learngitbranching.js.org',
                 name: 'Learn Git Branching',
               },
               {
