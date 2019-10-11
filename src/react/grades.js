@@ -607,12 +607,16 @@ const grades = [
                 name: 'Официальная документация',
               },
               {
-                url: 'https://githowto.com/ru',
-                name: 'GitHowTo',
-              },
-              {
                 url: 'https://learn.javascript.ru/screencast/git',
                 name: 'Скринкаст Ильи Кантора',
+              },
+              {
+                url: 'https://learngitbranching.js.org,
+                name: 'Learn Git Branching',
+              },
+              {
+                url: 'https://githowto.com/ru',
+                name: 'GitHowTo',
               },
             ],
           },
@@ -2450,12 +2454,16 @@ const grades = [
                 name: 'Официальная документация',
               },
               {
-                url: 'https://githowto.com/ru',
-                name: 'GitHowTo',
-              },
-              {
                 url: 'https://learn.javascript.ru/screencast/git',
                 name: 'Скринкаст Ильи Кантора',
+              },
+              {
+                url: 'https://learngitbranching.js.org,
+                name: 'Learn Git Branching',
+              },
+              {
+                url: 'https://githowto.com/ru',
+                name: 'GitHowTo',
               },
             ],
           },
