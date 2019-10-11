@@ -161,7 +161,7 @@ const grades = [
               },
               {
                 url: 'http://eloquentjavascript.net',
-                name: 'Книгна "Eloquent JavaScript"',
+                name: 'Книга "Eloquent JavaScript"',
               },
               {
                 url: 'https://github.com/workshopper/javascripting',
