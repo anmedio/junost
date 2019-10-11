@@ -161,7 +161,7 @@ const grades = [
               },
               {
                 url: 'http://eloquentjavascript.net',
-                name: 'Книгна "Eloquent JavaScript"',
+                name: 'Книга "Eloquent JavaScript"',
               },
               {
                 url: 'https://github.com/workshopper/javascripting',
@@ -827,7 +827,7 @@ const grades = [
                 name: 'Тимур Шемсединов - "Programming"',
               },
               {
-                url: 'http://www.vashstile1.ru/assets/files/price.pdf',
+                url: 'https://github.com/Apress/pro-javascript-design-patterns',
                 name: 'Pro JavaScript Design Patterns',
               },
             ],
