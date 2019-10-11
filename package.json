@@ -1,12 +1,12 @@
 {
-  "name": "boilerplate",
-  "version": "1.0.0",
-  "description": "Frontend boilerplate (pug, scss, react)",
+  "name": "Junost",
+  "version": "1.0.1",
+  "description": "Junost project made by ANMEDIO",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "gulp",
-    "dev": "webpack-dev-server --mode=development --hot --inline --host localhost --port 8080",
-    "static-build": "gulp build",
+    "start": "cross-env NODE_ENV=development gulp",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --mode=development --hot --inline --host localhost --port 8080",
+    "static-build": "cross-env NODE_ENV=development gulp build",
     "react-build": "cross-env NODE_ENV=production webpack --mode=production",
     "react-dev-build": "cross-env NODE_ENV=production webpack --mode=development",
     "build": "npm run static-build && npm run react-build",
@@ -15,17 +15,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/artyom.anmedio/boilerplate.git"
+    "url": "git+ssh://git@gitlab.com/anmedio/grades.git"
   },
   "keywords": [
-    "boilerplate"
+    "grades",
+    "digital",
+    "junost",
+    "anmedio"
   ],
   "author": "Artyom Ivanov",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/artyom.anmedio/boilerplate/issues"
+    "url": "https://github.com/anmedio/grades/issues"
   },
-  "homepage": "https://gitlab.com/artyom.anmedio/boilerplate#readme",
+  "homepage": "https://gitlab.com/anmedio/grades#readme",
   "devDependencies": {
     "@babel/core": "^7.4.0",
     "@babel/plugin-proposal-class-properties": "^7.4.0",
