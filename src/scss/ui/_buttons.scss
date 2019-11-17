@@ -8,3 +8,24 @@
   padding: 9px 12px;
   border-radius: 3px;
 }
+
+.introjs-nextbutton{
+	text-shadow: none !important;
+	background: $c-yellow !important;
+	font-size: 1.4rem !important;
+	font-weight: bold !important;
+	padding: 9px 12px !important;
+	display: inline-flex !important;
+	align-items: flex-start !important;
+	margin-right: 15px !important;
+	margin-bottom: 15px !important;
+	border-radius: 3px !important;
+	line-height: 1 !important;
+	cursor: pointer !important;
+	border: none !important;
+	font-family: "ProximaNova", sans-serif !important;
+}
+
+.introjs-skipbutton, .introjs-prevbutton, .introjs-disabled{
+	display: none !important;
+}

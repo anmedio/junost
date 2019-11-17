@@ -34,6 +34,20 @@
     }
   }
 
+  &.is-soon{
+    height: 195px;
+    @include grid-media($md-grid) {
+      height: 160px;
+    }
+
+    @include grid-media($lg-grid) {
+      height: 130px;
+    }
+    &:after {
+      display: none;
+    }
+  }
+
   &::after {
     content: '';
     display: block;
@@ -128,6 +142,11 @@
   }
 
   .grade__title {
+
+    sup{
+      margin-left: .5rem;
+      color:$c-primary;
+    }
     // Media
     @include grid-media($md-grid) {
       max-height: 0;
@@ -247,6 +266,16 @@
     line-height: 1;
     cursor: pointer;
 
+    &--active{
+      background: $c-yellow;
+    }
+
+    &--soon{
+      background: none;
+      border: 1px dashed darken($c-grey,20%);
+      color: darken($c-grey,40%);
+    }
+
     span {
       font-weight: 600;
       font-weight: normal;
@@ -258,11 +287,13 @@
   &__btn {
     margin-top: auto;
     position: relative;
+    color: $c-white;
+    background: $c-primary;
 
     &::after,
     &::before {
       content: '';
-      background-color: $c-dark;
+      background-color: $c-white;
       width: 8px;
       height: 2px;
       margin-left: 8px;
@@ -296,9 +327,28 @@
     padding-bottom: 13px;
     margin-bottom: 17px;
 
+    position: relative;
+    padding-right: 25px;
+
     // Media
     @include grid-media($md-grid) {
       font-size: 2rem;
+    }
+
+    .btn-know{
+      position: relative;
+      text-decoration: none;
+      font-size: 1.4rem;
+      font-weight: bold;
+      background-color: #e3eaf0;
+      border-radius: 3px;
+      padding: 8px 12px 9px;
+      line-height: 1;
+      margin-left: 10px;
+      white-space: nowrap;
+      &--active{
+        background: $c-yellow;
+      }
     }
   }
 

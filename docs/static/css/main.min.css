@@ -359,6 +359,29 @@ body {
   padding: 9px 12px;
   border-radius: 3px; }
 
+.introjs-nextbutton {
+  text-shadow: none !important;
+  background: #fce463 !important;
+  font-size: 1.4rem !important;
+  font-weight: bold !important;
+  padding: 9px 12px !important;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  -webkit-box-align: start !important;
+      -ms-flex-align: start !important;
+          align-items: flex-start !important;
+  margin-right: 15px !important;
+  margin-bottom: 15px !important;
+  border-radius: 3px !important;
+  line-height: 1 !important;
+  cursor: pointer !important;
+  border: none !important;
+  font-family: "ProximaNova", sans-serif !important; }
+
+.introjs-skipbutton, .introjs-prevbutton, .introjs-disabled {
+  display: none !important; }
+
 .loader {
   width: 30px;
   height: 30px;
@@ -504,7 +527,8 @@ body {
     font-size: 1.2rem; }
     .header__descr a {
       color: #315efb;
-      border-bottom: 1px dashed; }
+      border-bottom: 1px dashed;
+      margin-right: 20px; }
     @media only screen and (min-width: 768px) {
       .header__descr {
         width: 327px; } }
@@ -582,6 +606,16 @@ body {
       background: linear-gradient(to top, #f4f6f9 20%, rgba(244, 246, 249, 0)); }
     .grade-section:nth-child(even)::before {
       background-color: #f4f6f9; }
+  .grade-section.is-soon {
+    height: 195px; }
+    @media only screen and (min-width: 768px) {
+      .grade-section.is-soon {
+        height: 160px; } }
+    @media only screen and (min-width: 1024px) {
+      .grade-section.is-soon {
+        height: 130px; } }
+    .grade-section.is-soon:after {
+      display: none; }
   .grade-section::after {
     content: '';
     display: block;
@@ -674,6 +708,9 @@ body {
         -webkit-transform: rotate(90deg);
             -ms-transform: rotate(90deg);
                 transform: rotate(90deg); }
+  .grade-section .grade__title sup {
+    margin-left: .5rem;
+    color: #315efb; }
   @media only screen and (min-width: 768px) {
     .grade-section .grade__title {
       max-height: 0;
@@ -771,6 +808,12 @@ body {
     border-radius: 3px;
     line-height: 1;
     cursor: pointer; }
+    .grade__item--active {
+      background: #fce463; }
+    .grade__item--soon {
+      background: none;
+      border: 1px dashed #a1b8cc;
+      color: #5e86a9; }
     .grade__item span {
       font-weight: 600;
       font-weight: normal;
@@ -778,10 +821,12 @@ body {
       margin-left: 8px; }
   .grade__btn {
     margin-top: auto;
-    position: relative; }
+    position: relative;
+    color: #fff;
+    background: #315efb; }
     .grade__btn::after, .grade__btn::before {
       content: '';
-      background-color: #1d2734;
+      background-color: #fff;
       width: 8px;
       height: 2px;
       margin-left: 8px; }
@@ -809,10 +854,25 @@ body {
     display: flex;
     border-bottom: 1px solid #e3eaf0;
     padding-bottom: 13px;
-    margin-bottom: 17px; }
+    margin-bottom: 17px;
+    position: relative;
+    padding-right: 25px; }
     @media only screen and (min-width: 768px) {
       .grade-popup h2 {
         font-size: 2rem; } }
+    .grade-popup h2 .btn-know {
+      position: relative;
+      text-decoration: none;
+      font-size: 1.4rem;
+      font-weight: bold;
+      background-color: #e3eaf0;
+      border-radius: 3px;
+      padding: 8px 12px 9px;
+      line-height: 1;
+      margin-left: 10px;
+      white-space: nowrap; }
+      .grade-popup h2 .btn-know--active {
+        background: #fce463; }
   .grade-popup p {
     font-size: 1.2rem; }
     @media only screen and (min-width: 768px) {

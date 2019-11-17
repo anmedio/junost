@@ -3820,6 +3820,7 @@ const grades = [
    */
   {
     name: 'Java',
+    soon: true,
     levels: [
       /**
        *
@@ -3829,13 +3830,6 @@ const grades = [
       {
         name: 'Junior',
         skills: [
-          {
-            tag: 'Скоро',
-            name: 'Скоро',
-            text:
-            'Скоро',
-            links: [],
-          },
         ],
       },
       /**
@@ -3844,16 +3838,8 @@ const grades = [
        *
        */
       {
-        name: 'Junior',
-        skills: [
-          {
-            tag: 'Скоро',
-            name: 'Скоро',
-            text:
-            'Скоро',
-            links: [],
-          },
-        ],
+        name: 'Middle',
+        skills: [],
       },
 
       /**
@@ -3862,16 +3848,8 @@ const grades = [
        *
        */
       {
-        name: 'Junior',
-        skills: [
-          {
-            tag: 'Скоро',
-            name: 'Скоро',
-            text:
-            'Скоро',
-            links: [],
-          },
-        ],
+        name: 'Senior',
+        skills: [],
       },
     ],
   },
@@ -3882,6 +3860,7 @@ const grades = [
    */
   {
     name: 'PHP',
+    soon: true,
     levels: [
       /**
        *
@@ -3890,15 +3869,7 @@ const grades = [
        */
       {
         name: 'Junior',
-        skills: [
-          {
-            tag: 'Скоро',
-            name: 'Скоро',
-            text:
-            'Скоро',
-            links: [],
-          },
-        ],
+        skills: [],
       },
       /**
        *
@@ -3907,15 +3878,7 @@ const grades = [
        */
       {
         name: 'Middle',
-        skills: [
-          {
-            tag: 'Скоро',
-            name: 'Скоро',
-            text:
-            'Скоро',
-            links: [],
-          },
-        ],
+        skills: [],
       },
 
       /**
@@ -3925,15 +3888,7 @@ const grades = [
        */
       {
         name: 'Senior',
-        skills: [
-          {
-            tag: 'Скоро',
-            name: 'Скоро',
-            text:
-            'Скоро',
-            links: [],
-          },
-        ],
+        skills: [],
       },
     ],
   },
@@ -3944,6 +3899,7 @@ const grades = [
    */
   {
     name: 'iOS',
+    soon: true,
     levels: [
       /**
        *
@@ -3952,15 +3908,7 @@ const grades = [
        */
       {
         name: 'Junior',
-        skills: [
-          {
-            tag: 'Скоро',
-            name: 'Скоро',
-            text:
-            'Скоро',
-            links: [],
-          },
-        ],
+        skills: [],
       },
       /**
        *
@@ -3969,15 +3917,7 @@ const grades = [
        */
       {
         name: 'Middle',
-        skills: [
-          {
-            tag: 'Скоро',
-            name: 'Скоро',
-            text:
-            'Скоро',
-            links: [],
-          },
-        ],
+        skills: [],
       },
 
       /**
@@ -3987,15 +3927,7 @@ const grades = [
        */
       {
         name: 'Senior',
-        skills: [
-          {
-            tag: 'Скоро',
-            name: 'Скоро',
-            text:
-            'Скоро',
-            links: [],
-          },
-        ],
+        skills: [],
       },
     ],
   },
@@ -4006,6 +3938,7 @@ const grades = [
    */
   {
     name: 'Android',
+    soon: true,
     levels: [
       /**
        *
@@ -4014,15 +3947,7 @@ const grades = [
        */
       {
         name: 'Junior',
-        skills: [
-          {
-            tag: 'Скоро',
-            name: 'Скоро',
-            text:
-            'Скоро',
-            links: [],
-          },
-        ],
+        skills: [],
       },
       /**
        *
@@ -4031,15 +3956,7 @@ const grades = [
        */
       {
         name: 'Middle',
-        skills: [
-          {
-            tag: 'Скоро',
-            name: 'Скоро',
-            text:
-            'Скоро',
-            links: [],
-          },
-        ],
+        skills: [],
       },
 
       /**
@@ -4049,15 +3966,7 @@ const grades = [
        */
       {
         name: 'Senior',
-        skills: [
-          {
-            tag: 'Скоро',
-            name: 'Скоро',
-            text:
-            'Скоро',
-            links: [],
-          },
-        ],
+        skills: [],
       },
     ],
   },
