@@ -261,6 +261,18 @@ const grades = [
             ],
           },
           {
+            tag: 'Emmet',
+            name: 'Emmet',
+            text:
+              'Emmet - инструмент, который помогает быстрее писать html и css. В большинстве редакторов есть из коробки',
+            links: [
+              {
+                url: 'https://docs.emmet.io/',
+                name: 'Официальная документация',
+              },
+            ],
+          },
+          {
             tag: 'Bootstrap',
             name: 'Bootstrap',
             text:
@@ -894,8 +906,7 @@ const grades = [
           {
             tag: 'Jest',
             name: 'Jest',
-            text:
-              'Jest — архитектурный подход или набор шаблонов программирования для построения пользовательского интерфейса веб-приложений, сочетающийся с реактивным программированием и построенный на однонаправленных потоках данных. Согласно замыслу создателей и несмотря на то, что Facebook предоставил реализацию Flux в дополнение к React, Flux не является ещё одним веб-фреймворком, а является архитектурным решением.',
+            text: 'Jest — фреймворк для тестирования кода JavaScript.',
             links: [
               {
                 url: 'https://jestjs.io/docs/en/getting-started',
@@ -1217,6 +1228,19 @@ const grades = [
                 url:
                   'https://blog.gds-gov.tech/that-ci-cd-thing-principles-implementation-tools-aa8e77f9a350',
                 name: 'Cтатья на MDN (longread)',
+              },
+            ],
+          },
+          {
+            tag: 'Weinre',
+            name: 'Weinre',
+            text:
+              'WEb INspector REmote. Когда нельзя использовать обычные средства дебага, дебажить можно этим инструментом. Телевизоры, старые телефоны и т.д.',
+            links: [
+              {
+                url:
+                  'https://people.apache.org/~pmuellr/weinre/docs/latest/Home.html',
+                name: 'Официальный сайт',
               },
             ],
           },
@@ -1737,6 +1761,11 @@ const grades = [
                 url:
                   'http://www.mustitz.net/attachments/download/525/%D0%AF%D0%B4%D1%80%D0%BE_Linux._%D0%9E%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%B0_%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8._3-%D0%B5_%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5.pdf',
                 name: '"Ядро Линукс - Описание процесса разработки"',
+              },
+              {
+                url: 'http://linuxfromscratch.org/',
+                name:
+                  'Linux From Scratch - Пошаговая инструкция по сборке собственного дистрибутива',
               },
             ],
           },
@@ -2899,8 +2928,7 @@ const grades = [
           {
             tag: 'Jest',
             name: 'Jest',
-            text:
-              'Jest — архитектурный подход или набор шаблонов программирования для построения пользовательского интерфейса веб-приложений, сочетающийся с реактивным программированием и построенный на однонаправленных потоках данных. Согласно замыслу создателей и несмотря на то, что Facebook предоставил реализацию Flux в дополнение к React, Flux не является ещё одним веб-фреймворком, а является архитектурным решением.',
+            text: 'Jest — фреймворк для тестирования кода JavaScript.',
             links: [
               {
                 url: 'https://jestjs.io/docs/en/getting-started',
@@ -3417,6 +3445,11 @@ const grades = [
                   'http://www.mustitz.net/attachments/download/525/%D0%AF%D0%B4%D1%80%D0%BE_Linux._%D0%9E%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%B0_%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8._3-%D0%B5_%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5.pdf',
                 name: '"Ядро Линукс - Описание процесса разработки"',
               },
+              {
+                url: 'http://linuxfromscratch.org/',
+                name:
+                  'Linux From Scratch - Пошаговая инструкция по сборке собственного дистрибутива',
+              },
             ],
           },
           {
@@ -3869,8 +3902,7 @@ const grades = [
        */
       {
         name: 'Junior',
-        skills: [
-        ],
+        skills: [],
       },
       /**
        *

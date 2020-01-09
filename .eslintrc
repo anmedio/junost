@@ -8,15 +8,25 @@
         "extensions": [".jsx"]
       }
     ],
-    "react/forbid-prop-types": [2, { "forbid": ['any'], checkContextTypes: false, checkChildContextTypes: false }],
+    "react/forbid-prop-types": [
+      2,
+      {
+        "forbid": ["any"],
+        "checkContextTypes": false,
+        "checkChildContextTypes": false
+      }
+    ],
     "react/no-danger": 0,
     "jsx-a11y/label-has-for": 0,
-    "jsx-a11y/label-has-associated-control": [ 2, {
-      "labelComponents": ["CustomInputLabel"],
-      "labelAttributes": ["label"],
-      "controlComponents": ["CustomInput"],
-      "depth": 3
-    }],
+    "jsx-a11y/label-has-associated-control": [
+      2,
+      {
+        "labelComponents": ["CustomInputLabel"],
+        "labelAttributes": ["label"],
+        "controlComponents": ["CustomInput"],
+        "depth": 3
+      }
+    ],
     "prettier/prettier": "error",
     "max-len": ["error", 80]
   },
