@@ -261,6 +261,18 @@ const grades = [
             ],
           },
           {
+            tag: 'Emmet',
+            name: 'Emmet',
+            text:
+              'Emmet - инструмент, который помогает быстрее писать html и css. В большинстве редакторов есть из коробки',
+            links: [
+              {
+                url: 'https://docs.emmet.io/',
+                name: 'Официальная документация',
+              },
+            ],
+          },
+          {
             tag: 'Bootstrap',
             name: 'Bootstrap',
             text:
@@ -296,6 +308,26 @@ const grades = [
               {
                 url: 'https://learn.javascript.ru/screencast/gulp',
                 name: 'Скринкаст Ильи Кантора',
+              },
+            ],
+          },
+          {
+            tag: 'Makefile',
+            name: 'Makefile',
+            text:
+              'Makefile - файл, содержащий набор инструкций для программы make. Программа make с помощью этого файла позволяет автоматизировать процесс компиляции программы и выполнять при этом различные действия, но на самом деле все проще и полезнее.',
+            links: [
+              {
+                url: 'https://ru.makefile.site/',
+                name: 'Руководство по современному Make',
+              },
+              {
+                url: 'https://github.com/inem/make-handbook/blob/master/modern-make-handbook-ru.md',
+                name: 'modern-make-handbook-ru.md',
+              },
+              {
+                url: 'https://www.youtube.com/watch?v=pK9mF5aK05Q',
+                name: 'Утилита make: полезный универсальный инструмент программиста',
               },
             ],
           },
@@ -448,6 +480,41 @@ const grades = [
               {
                 url: 'https://api.jquery.com/',
                 name: 'Официальная документация',
+              },
+            ],
+          },
+          {
+            tag: 'CSS-in-JS',
+            name: 'CSS-in-JS',
+            text:
+              'CSS-in-JS — техника стилизации компонентов с помощью JavaScript. Прежде всего позволяет облегчить динамическую стилизацию, сократить количество кода, обеспечить «скоупинг» стилей в компонентах. Наиболее развитые и популярные реализации (Styled-components, Emotion) представлены для библиотеки React.',
+            links: [
+              {
+                url: 'https://jxnblk.com/blog/why-you-should-learn-css-in-js/',
+                name: 'Why you should definitely learn how to use CSS-in-JS',
+              },
+              {
+                url:
+                  'https://dev.to/phizzard/let-s-take-a-look-at-css-in-js-with-react-in-2019-styled-components-1olc',
+                name: 'CSS-in-JS with React in 2019 — Styled Components',
+              },
+              {
+                url: 'https://alert-refactor.netlify.com/',
+                name: 'CSS vs CSS-in-JS (Emotion) example',
+              },
+              {
+                url: 'https://www.gatsbyjs.org/docs/css-in-js/',
+                name: 'Guide on CSS-in-JS usage',
+              },
+              {
+                url:
+                  'https://www.styled-components.com/docs',
+                name: 'Официальная документация Styled-components',
+              },
+              {
+                url:
+                  'https://emotion.sh/docs/introduction',
+                name: 'Официальная документация Emotion',
               },
             ],
           },
@@ -874,8 +941,7 @@ const grades = [
           {
             tag: 'Jest',
             name: 'Jest',
-            text:
-              'Jest — архитектурный подход или набор шаблонов программирования для построения пользовательского интерфейса веб-приложений, сочетающийся с реактивным программированием и построенный на однонаправленных потоках данных. Согласно замыслу создателей и несмотря на то, что Facebook предоставил реализацию Flux в дополнение к React, Flux не является ещё одним веб-фреймворком, а является архитектурным решением.',
+            text: 'Jest — фреймворк для тестирования кода JavaScript.',
             links: [
               {
                 url: 'https://jestjs.io/docs/en/getting-started',
@@ -1197,6 +1263,19 @@ const grades = [
                 url:
                   'https://blog.gds-gov.tech/that-ci-cd-thing-principles-implementation-tools-aa8e77f9a350',
                 name: 'Cтатья на MDN (longread)',
+              },
+            ],
+          },
+          {
+            tag: 'Weinre',
+            name: 'Weinre',
+            text:
+              'WEb INspector REmote. Когда нельзя использовать обычные средства дебага, дебажить можно этим инструментом. Телевизоры, старые телефоны и т.д.',
+            links: [
+              {
+                url:
+                  'https://people.apache.org/~pmuellr/weinre/docs/latest/Home.html',
+                name: 'Официальный сайт',
               },
             ],
           },
@@ -1718,6 +1797,11 @@ const grades = [
                   'http://www.mustitz.net/attachments/download/525/%D0%AF%D0%B4%D1%80%D0%BE_Linux._%D0%9E%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%B0_%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8._3-%D0%B5_%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5.pdf',
                 name: '"Ядро Линукс - Описание процесса разработки"',
               },
+              {
+                url: 'http://linuxfromscratch.org/',
+                name:
+                  'Linux From Scratch - Пошаговая инструкция по сборке собственного дистрибутива',
+              },
             ],
           },
           {
@@ -2011,6 +2095,26 @@ const grades = [
               {
                 url: 'https://learn.javascript.ru/screencast/gulp',
                 name: 'Скринкаст Ильи Кантора',
+              },
+            ],
+          },
+          {
+            tag: 'Makefile',
+            name: 'Makefile',
+            text:
+              'Makefile - файл, содержащий набор инструкций для программы make. Программа make с помощью этого файла позволяет автоматизировать процесс компиляции программы и выполнять при этом различные действия, но на самом деле все проще и полезнее.',
+            links: [
+              {
+                url: 'https://ru.makefile.site/',
+                name: 'Руководство по современному Make',
+              },
+              {
+                url: 'https://github.com/inem/make-handbook/blob/master/modern-make-handbook-ru.md',
+                name: 'modern-make-handbook-ru.md',
+              },
+              {
+                url: 'https://www.youtube.com/watch?v=pK9mF5aK05Q',
+                name: 'Утилита make: полезный универсальный инструмент программиста',
               },
             ],
           },
@@ -2859,8 +2963,7 @@ const grades = [
           {
             tag: 'Jest',
             name: 'Jest',
-            text:
-              'Jest — архитектурный подход или набор шаблонов программирования для построения пользовательского интерфейса веб-приложений, сочетающийся с реактивным программированием и построенный на однонаправленных потоках данных. Согласно замыслу создателей и несмотря на то, что Facebook предоставил реализацию Flux в дополнение к React, Flux не является ещё одним веб-фреймворком, а является архитектурным решением.',
+            text: 'Jest — фреймворк для тестирования кода JavaScript.',
             links: [
               {
                 url: 'https://jestjs.io/docs/en/getting-started',
@@ -3376,6 +3479,11 @@ const grades = [
                 url:
                   'http://www.mustitz.net/attachments/download/525/%D0%AF%D0%B4%D1%80%D0%BE_Linux._%D0%9E%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%B0_%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8._3-%D0%B5_%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5.pdf',
                 name: '"Ядро Линукс - Описание процесса разработки"',
+              },
+              {
+                url: 'http://linuxfromscratch.org/',
+                name:
+                  'Linux From Scratch - Пошаговая инструкция по сборке собственного дистрибутива',
               },
             ],
           },
