@@ -269,7 +269,7 @@ const grades = [
               {
                 url: 'https://docs.emmet.io/',
                 name: 'Официальная документация',
-              }
+              },
             ],
           },
           {
@@ -886,8 +886,7 @@ const grades = [
           {
             tag: 'Jest',
             name: 'Jest',
-            text:
-              'Jest — фреймворк для тестирования кода JavaScript.',
+            text: 'Jest — фреймворк для тестирования кода JavaScript.',
             links: [
               {
                 url: 'https://jestjs.io/docs/en/getting-started',
@@ -1213,13 +1212,14 @@ const grades = [
             ],
           },
           {
-            tag: 'weinre',
-            name: 'weinre',
+            tag: 'Weinre',
+            name: 'Weinre',
             text:
               'WEb INspector REmote. Когда нельзя использовать обычные средства дебага, дебажить можно этим инструментом. Телевизоры, старые телефоны и т.д.',
             links: [
               {
-                url: 'https://people.apache.org/~pmuellr/weinre/docs/latest/Home.html',
+                url:
+                  'https://people.apache.org/~pmuellr/weinre/docs/latest/Home.html',
                 name: 'Официальный сайт',
               },
             ],
@@ -1743,9 +1743,9 @@ const grades = [
                 name: '"Ядро Линукс - Описание процесса разработки"',
               },
               {
-                url:
-                  'http://linuxfromscratch.org/',
-                name: 'Linux From Scratch - Пошаговая инструкция по сборке собственного дистрибутива',
+                url: 'http://linuxfromscratch.org/',
+                name:
+                  'Linux From Scratch - Пошаговая инструкция по сборке собственного дистрибутива',
               },
             ],
           },
@@ -2888,8 +2888,7 @@ const grades = [
           {
             tag: 'Jest',
             name: 'Jest',
-            text:
-              'Jest — фреймворк для тестирования кода JavaScript.',
+            text: 'Jest — фреймворк для тестирования кода JavaScript.',
             links: [
               {
                 url: 'https://jestjs.io/docs/en/getting-started',
@@ -3407,9 +3406,9 @@ const grades = [
                 name: '"Ядро Линукс - Описание процесса разработки"',
               },
               {
-                url:
-                  'http://linuxfromscratch.org/',
-                name: 'Linux From Scratch - Пошаговая инструкция по сборке собственного дистрибутива',
+                url: 'http://linuxfromscratch.org/',
+                name:
+                  'Linux From Scratch - Пошаговая инструкция по сборке собственного дистрибутива',
               },
             ],
           },
@@ -3863,8 +3862,7 @@ const grades = [
        */
       {
         name: 'Junior',
-        skills: [
-        ],
+        skills: [],
       },
       /**
        *
