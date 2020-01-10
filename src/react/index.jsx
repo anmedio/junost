@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 
 // Content
 import grades from '~/grades';
+import hintsOptions from '~/hints';
 
 // Components
 import Grades from '~/pages/grades';
@@ -44,4 +45,9 @@ $('.about').click(() => {
       },
     },
   });
-})
+});
+
+// Hints
+$('.help').click(() => {
+  introJs().setOptions(hintsOptions).start();
+});
