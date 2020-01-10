@@ -30,4 +30,4 @@
 
 <a href="https://github.com/anmedio/junost/graphs/contributors">
   <img src="https://contributors-img.firebaseapp.com/image?repo=anmedio/junost" />
-</a>>
+</a>
