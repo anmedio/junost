@@ -24,8 +24,10 @@
   npm run react-build
 ```
 
+Однако для PR финальный бандл можно не собирать, так как даже если он будет присутствовать в проекте, в мастер он не уйдёт (бандл делается модератором проекта после финального рефакторинга и согласования)
+
 ### Contributors
 
-<a href="https://github.com/anmedio/junost//graphs/contributors">
-  <img src="https://contributors-img.firebaseapp.com/image?repo=anmedio/junost/" />
-</a>
+<a href="https://github.com/anmedio/junost/graphs/contributors">
+  <img src="https://contributors-img.firebaseapp.com/image?repo=anmedio/junost" />
+</a>>
