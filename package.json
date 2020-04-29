@@ -10,7 +10,7 @@
     "static-build": "cross-env NODE_ENV=development gulp build",
     "react-build": "cross-env NODE_ENV=production webpack --mode=production",
     "react-dev-build": "cross-env NODE_ENV=production webpack --mode=development",
-    "build": "npm run static-build && npm run react-build",
+    "build": "cross-env NODE_ENV=production npm run static-build && npm run react-build",
     "lint": "eslint src -c .eslintrc --ext js,jsx",
     "lint-fix": "eslint src -c .eslintrc --ext js,jsx --fix"
   },
