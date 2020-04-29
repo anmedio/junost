@@ -49,6 +49,7 @@ $('.about').click(() => {
 
 // Hints
 $('.help').click(() => {
+  // eslint-disable-next-line
   introJs()
     .setOptions(hintsOptions)
     .start();
