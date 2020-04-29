@@ -1,3 +1,5 @@
+/* eslint-disable max-len */
+
 const javaGrades =
   /**
    *
@@ -265,3 +267,5 @@ const javaGrades =
       },
     ],
   };
+
+module.exports = javaGrades;
