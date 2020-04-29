@@ -1,11 +1,12 @@
 {
-  "name": "Junost",
-  "version": "1.0.1",
-  "description": "Junost project made by ANMEDIO",
+  "name": "junost",
+  "version": "1.2.0",
+  "description": "Junost project - objective grades for the development of digital professionals, proposed and developed by the professional community. Made by ANMEDIO",
   "main": "gulpfile.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development gulp",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --mode=development --hot --inline --host localhost --port 8080",
+    "develop": "cross-env NODE_ENV=development webpack-dev-server --mode=development --hot --inline --host localhost --port 8080",
     "static-build": "cross-env NODE_ENV=development gulp build",
     "react-build": "cross-env NODE_ENV=production webpack --mode=production",
     "react-dev-build": "cross-env NODE_ENV=production webpack --mode=development",
@@ -24,6 +25,13 @@
     "anmedio"
   ],
   "author": "Artyom Ivanov",
+  "contributors": [
+    {
+      "name": "nikolasmelui",
+      "email": "slak@samaradom.ru",
+      "url": "https://nikolasmelui.beer4.ru/"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/anmedio/grades/issues"
