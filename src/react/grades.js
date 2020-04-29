@@ -1421,6 +1421,10 @@ const functionalProgrammingTag = {
       url: 'https://github.com/kishorsharma/currying-workshopper',
       name: 'Сurrying-workshopper',
     },
+    {
+      url: 'https://www.manning.com/books/functional-programming-in-javascript',
+      name: 'Luis Atencio - Functional Programming in JavaScript',
+    },
   ],
 };
 
