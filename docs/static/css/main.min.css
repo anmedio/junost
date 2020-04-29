@@ -601,7 +601,6 @@ body {
     background-color: #f4f6f9; }
     .grade-section:nth-child(even)::after {
       background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, #f4f6f9), to(rgba(244, 246, 249, 0)));
-      background: -webkit-linear-gradient(bottom, #f4f6f9 20%, rgba(244, 246, 249, 0));
       background: -o-linear-gradient(bottom, #f4f6f9 20%, rgba(244, 246, 249, 0));
       background: linear-gradient(to top, #f4f6f9 20%, rgba(244, 246, 249, 0)); }
     .grade-section:nth-child(even)::before {
@@ -624,7 +623,6 @@ body {
     width: 100%;
     height: 65%;
     background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, #fff), to(rgba(255, 255, 255, 0)));
-    background: -webkit-linear-gradient(bottom, #fff 20%, rgba(255, 255, 255, 0));
     background: -o-linear-gradient(bottom, #fff 20%, rgba(255, 255, 255, 0));
     background: linear-gradient(to top, #fff 20%, rgba(255, 255, 255, 0));
     pointer-events: none;
