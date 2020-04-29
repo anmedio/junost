@@ -8,23 +8,25 @@ const hintsOptions = {
     {
       element: '.grade-section',
       intro: 'Каждая строчка — направление развития digital-специалиста.',
-      position: 'top'
+      position: 'top',
     },
     {
       element: '.grade-section__title',
       intro: 'Тап по названию направления раскроет скиллы этого раздела.',
-      position: 'right'
+      position: 'right',
     },
     {
       element: '.grade__item',
-      intro: 'Тап по скиллу откроет поп-ап с подробной информацией и ссылками на материалы для изучения.',
+      intro:
+        'Тап по скиллу откроет поп-ап с подробной информацией и ссылками на материалы для изучения.',
     },
     {
       element: '.header__logo',
-      intro: 'Предложить свои материалы или скиллы для направлений можно на Github или написав на opensource@anmedio.ru',
-      position: 'left'
-    }
-  ]
-}
+      intro:
+        'Предложить свои материалы или скиллы для направлений можно на Github или написав на opensource@anmedio.ru',
+      position: 'left',
+    },
+  ],
+};
 
 export default hintsOptions;

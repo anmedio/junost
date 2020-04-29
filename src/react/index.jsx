@@ -17,7 +17,7 @@ const components = [
   {
     component: <Grades data={grades} />,
     target: document.getElementById('grades'),
-  }
+  },
 ];
 
 $(() => {
@@ -27,10 +27,10 @@ $(() => {
 });
 
 $('.about').click(() => {
-	$.magnificPopup.open({
+  $.magnificPopup.open({
     items: {
       src: '#popup',
-      type: 'inline'
+      type: 'inline',
     },
     removalDelay: 250,
     callbacks: {
@@ -49,5 +49,7 @@ $('.about').click(() => {
 
 // Hints
 $('.help').click(() => {
-  introJs().setOptions(hintsOptions).start();
+  introJs()
+    .setOptions(hintsOptions)
+    .start();
 });
