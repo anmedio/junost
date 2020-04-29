@@ -2458,6 +2458,135 @@ const awsTag = {
   ],
 };
 
+const pythonBasicsTag = {
+  tag: 'Python (basics)',
+  name: 'Python (basics)',
+  text:
+    'Python — высокоуровневый язык программирования общего назначения, ориентированный на повышение производительности разработчика и читаемости кода. Синтаксис ядра Python минималистичен. В то же время стандартная библиотека включает большой объём полезных функций.',
+  links: [
+    {
+      url: 'https://stepik.org/course/512/promo',
+      name: 'Курс на Stepik "Python: основы и применение"',
+    },
+    {
+      url: 'https://www.coursera.org/learn/python-osnovy-programmirovaniya',
+      name: 'Курс на Coursera "Основы программирования на Python"',
+    },
+    {
+      url: 'https://www.coursera.org/specializations/programming-in-python',
+      name: 'Курс на Coursera "Программирование на Python"',
+    },
+    {
+      url: 'https://vk.com/wall-51126445_49142',
+      name: 'Марк Лутц, Изучаем Python',
+    },
+    {
+      url: 'https://pep8.ru/doc/pep8/',
+      name: 'PEP8 — стиль кода в языке Python',
+    },
+  ],
+};
+
+const pythonPipTag = {
+  tag: 'pip',
+  name: 'pip',
+  text:
+    'pip — система управления пакетами, которая используется для установки и управления программными пакетами, написанными на Python.',
+  links: [
+    {
+      url: 'https://realpython.com/what-is-pip/',
+      name: 'What Is Pip? A Guide for New Pythonistas',
+    },
+    {
+      url:
+        'https://ru.hexlet.io/courses/python-setup-environment/lessons/getting-pip/theory_unit',
+      name: 'Hexlet: pip',
+    },
+    {
+      url: 'https://pypi.org/',
+      name: 'Python Package Index (PyPI)',
+    },
+  ],
+};
+
+const pythonVenvTag = {
+  tag: 'Python Virtual Environments',
+  name: 'Python Virtual Environments',
+  text:
+    'Согласно лучшим практикам, принято устанавливать зависимости каждого проекта в отдельное виртуальное окружение Python. Таким образом можно избежать множества проблем с пересекающимися или конфликтующими зависимостями.',
+  links: [
+    {
+      url: 'https://docs.python.org/3/tutorial/venv.html',
+      name: 'Tutorial: Virtual Environments and Packages',
+    },
+    {
+      url: 'https://realpython.com/python-virtual-environments-a-primer/',
+      name: 'Python Virtual Environments: A Primer',
+    },
+    {
+      url: 'https://towardsdatascience.com/virtual-environments-104c62d48c54',
+      name: 'A Guide to Python’s Virtual Environments',
+    },
+    {
+      url: 'https://python-poetry.org/',
+      name: 'poetry: Python packaging and dependency management made easy',
+    },
+    {
+      url: 'https://github.com/pypa/pipenv',
+      name: 'pipenv: Python Development Workflow for Humans',
+    },
+  ],
+};
+
+const pythonToolingTag = {
+  tag: 'Python Tooling',
+  name: 'Python Tooling',
+  text:
+    'Существует множество инструментов, призванных упростить жизнь разработчика и сделать его более эффективным. Глупо не пользоваться ими.',
+  links: [
+    {
+      url: 'https://www.youtube.com/watch?v=qPKmXkxmsHI',
+      name: 'Никита Гришко, «Evolution of dependency management»',
+    },
+    {
+      url: 'https://realpython.com/python-code-quality/',
+      name: 'Python Code Quality: Tools & Best Practices',
+    },
+    {
+      url: 'https://flake8.pycqa.org/en/latest/',
+      name: 'flake8',
+    },
+    {
+      url: 'https://github.com/psf/black',
+      name: 'black',
+    },
+    {
+      url: 'https://realpython.com/python-type-checking/',
+      name: 'Python Type Checking (Guide)',
+    },
+    {
+      url: 'https://habr.com/ru/company/lamoda/blog/432656/',
+      name: 'Введение в аннотации типов Python',
+    },
+  ],
+};
+
+const pythonAdvancedTag = {
+  tag: 'Python (advanced)',
+  name: 'Python (advanced)',
+  text: 'Продвинутый уровень для разработчиков на Python.',
+  links: [
+    {
+      url: 'https://vk.com/wall-51126445_18406',
+      name: 'Лучано Рамальо, "Python, к вершинам мастерства" (Fluent Python)',
+    },
+    {
+      url: 'https://vk.com/wall-51126445_47475',
+      name: 'Дэн Бейдер, "Чистый Python" (Python tricks)',
+    },
+  ],
+};
+
 const grades = [
   {
     name: 'Frontend',
@@ -2685,6 +2814,92 @@ const grades = [
           elasticSearchTag,
           reactNativeTag,
           electronTag,
+          awsTag,
+        ],
+      },
+    ],
+  },
+  /**
+   *
+   *  Python
+   *
+   */
+  {
+    name: 'Python',
+    levels: [
+      /**
+       *
+       *  Python - Junior
+       *
+       */
+      {
+        name: 'Junior',
+        skills: [
+          computerScienceTag,
+          pythonBasicsTag,
+          pythonPipTag,
+          pythonVenvTag,
+          pythonToolingTag,
+          markdownTag,
+          jsonTag,
+          vsCodeTag,
+          mariadbTag,
+          postgresqlTag,
+          mongodbTag,
+          sshTag,
+          gitTag,
+          linuxBasicsTag,
+          cyberSecurityBasicsTag,
+          databasesBasicsTag,
+          oopTag,
+          restTag,
+          httpTag,
+          tcpTag,
+          updTag,
+          sslTag,
+          codeCommentingTag,
+          touchTypingTag,
+          designPrincipleTag,
+          refactoringTag,
+        ],
+      },
+      /**
+       *
+       *  Python - Middle
+       *
+       */
+      {
+        name: 'Middle',
+        skills: [
+          pythonAdvancedTag,
+          oAuthTag,
+          redisTag,
+          memcachedTag,
+          dockerTag,
+          cicdTag,
+          jenkinsTag,
+          ansibleTag,
+          tddTag,
+          linuxAdvancedTag,
+          networkAdvancedTag,
+          databasesAdvancedTag,
+        ],
+      },
+
+      /**
+       *
+       *  Python - Senior
+       *
+       */
+      {
+        name: 'Senior',
+        skills: [
+          algorithmAnalysisAndDesignTag,
+          softwareArchitectureTag,
+          microservicesArchitectureTag,
+          kafkaTag,
+          rabbitMQTag,
+          elasticSearchTag,
           awsTag,
         ],
       },
