@@ -1,3 +1,51 @@
-import {} from '../../tags';
+import {
+  ansible,
+  cicd,
+  databasesAdvanced,
+  dataStructuresRealisation,
+  designPatterns,
+  developmentPatterns,
+  docker,
+  elasticSearch,
+  firebase,
+  functionalProgramming,
+  graphQL,
+  javadoc,
+  jenkins,
+  jwt,
+  linuxAdvanced,
+  memcached,
+  networkAdvanced,
+  oAuth,
+  redis,
+  streamAPI,
+  tddbdd,
+  webFrameworkJava,
+} from '../../tags';
 
-export default [];
+export default [
+  webFrameworkJava,
+  javadoc,
+  graphQL,
+
+  firebase,
+  jwt,
+  oAuth,
+  redis,
+  memcached,
+  elasticSearch,
+  docker,
+  cicd,
+  jenkins,
+  ansible,
+  designPatterns,
+  developmentPatterns,
+  streamAPI,
+
+  functionalProgramming,
+  tddbdd,
+  linuxAdvanced,
+  networkAdvanced,
+  databasesAdvanced,
+  dataStructuresRealisation,
+];

@@ -12,6 +12,10 @@ const microservicesArchitecture = {
         'https://www.youtube.com/playlist?list=PLDmvslp_VR0xZGhJHMjy5dozCDJYZK6W-',
       name: 'Create A Microservice-based Web Application',
     },
+    {
+      url: 'https://www.nginx.com/blog/introduction-to-microservices/',
+      name: 'Nginx Introduction to Microservices',
+    },
   ],
 };
 

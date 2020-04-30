@@ -1,8 +1,8 @@
 /* eslint-disable max-len */
 
-const libuvAndAsynchronousIO = {
-  tag: 'Libuv & asynchronous I/O',
-  name: 'Libuv & asynchronous I/O',
+const libuvAsynchronousIO = {
+  tag: 'Libuv asynchronous I/O',
+  name: 'Libuv asynchronous I/O',
   text:
     'Libuv -  это многоплатформенная библиотека C, которая поддерживает асинхронный ввод-вывод на основе циклов событий. Он поддерживает порты событий epoll, kqueue, Windows IOCP и Solaris. Он в первую очередь предназначен для использования в Node.js, но также используется другими программными проектами.',
   links: [
@@ -26,4 +26,4 @@ const libuvAndAsynchronousIO = {
   ],
 };
 
-export default libuvAndAsynchronousIO;
+export default libuvAsynchronousIO;

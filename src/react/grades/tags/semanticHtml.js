@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
 
-const semanticHtml = {
+const semanticHTML = {
   // TODO: Добавить материал
   tag: 'Semantic HTML',
   name: 'Semantic HTML',
@@ -15,4 +15,4 @@ const semanticHtml = {
   ],
 };
 
-export default semanticHtml;
+export default semanticHTML;
