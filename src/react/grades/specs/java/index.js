@@ -4,7 +4,6 @@ import senior from './senior';
 
 export default {
   name: 'Java',
-  soon: true,
   levels: [
     {
       name: 'Junior',
