@@ -20,6 +20,14 @@ const css = {
       name: 'Academind - "Understanding CSS"',
     },
     {
+      url: 'https://flexboxfroggy.com/#ru',
+      name: 'FLEXBOX FROGGY',
+    },
+    {
+      url: 'https://cssgridgarden.com/#ru',
+      name: 'GRID GARDEN',
+    },
+    {
       url:
         'https://www.youtube.com/playlist?list=PLyf8LgkO_8q8p3XDhKp8c4yJzgbRl7jFN',
       name: 'WebDesignMaster - "Джедай верстки"',

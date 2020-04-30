@@ -203,9 +203,47 @@ class Grades extends Component {
         );
       });
 
+      const progressBarStyles = {
+        position: 'absolute',
+        top: '-20px',
+        left: '13px',
+        height: '10px',
+        width: '100px',
+        borderRadius: '50px',
+        border: '1px solid #333',
+      };
+
+      const fillerStyles = {
+        background: 'black',
+        height: '100%',
+        width: '75%',
+        borderRadius: 'inherit',
+        transition: 'width .2s ease-in',
+      };
+
+      const Filler = () => {
+        return <div style={fillerStyles} />;
+      };
+
+      const ProgressBar = () => {
+        return (
+          <div style={progressBarStyles}>
+            <Filler />
+          </div>
+        );
+      };
+
       return (
         <section key={row.name} className={classes.join(' ')}>
           <div className="container grade-section__wrap">
+            <div
+              style={{
+                zIndex: row.name === 'Python' || row.name === 'Java' ? 9 : 0,
+              }}
+            >
+              <ProgressBar />
+            </div>
+
             <button
               type="button"
               className="title grade-section__title"
