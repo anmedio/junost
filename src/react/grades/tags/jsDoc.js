@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
 
-const jsDoc = {
+const jsdoc = {
   tag: 'JSDoc',
   name: 'JSDoc',
   text:
@@ -18,4 +18,4 @@ const jsDoc = {
   ],
 };
 
-export default jsDoc;
+export default jsdoc;
