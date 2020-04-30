@@ -35,7 +35,7 @@ export { default as eslint } from './eslint';
 export { default as express } from './express';
 export { default as figma } from './figma';
 export { default as firebase } from './firebase';
-export { default as flusk } from './flusk';
+export { default as flask } from './flask';
 export { default as flux } from './flux';
 export { default as functionalProgramming } from './functionalProgramming';
 export { default as git } from './git';
