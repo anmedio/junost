@@ -11,6 +11,10 @@ const oAuth = {
       name: 'Официальная документация',
     },
     {
+      url: 'https://www.youtube.com/watch?v=CPbvxxslDTU',
+      name: 'OAuth 2.0 Overview',
+    },
+    {
       url:
         'https://www.youtube.com/playlist?list=PL4cUxeGkcC9jdm7QX143aMLAqyM-jTZ2x',
       name: 'The Net Ninja - "OAuth Login (Passport.js) Tutorial"',
