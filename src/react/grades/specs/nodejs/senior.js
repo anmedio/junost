@@ -17,7 +17,6 @@ import {
   webAssembly,
   kafka,
   rabbitMQ,
-  elasticSearch,
   aws,
 } from '../../tags';
 
@@ -38,7 +37,6 @@ export default [
   webAssembly,
   kafka,
   rabbitMQ,
-  elasticSearch,
   reactNative,
   electron,
   aws,
