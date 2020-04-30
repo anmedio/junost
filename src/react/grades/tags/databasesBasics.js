@@ -22,6 +22,10 @@ const databasesBasics = {
         'https://www.youtube.com/watch?v=8a2CSE6cg5k&list=PLaFqU3KCWw6J1NEI8hjYlvGnD4Y7Sxx4r',
       name: 'Postgres Professional - Учебный курс "Язык SQL"',
     },
+    {
+      url: 'https://www.youtube.com/watch?v=qI_g07C_Q5I',
+      name: 'GOTO 2012 • Introduction to NoSQL • Martin Fowler',
+    },
   ],
 };
 
