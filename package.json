@@ -1,15 +1,17 @@
 {
-  "name": "Junost",
-  "version": "1.0.1",
-  "description": "Junost project made by ANMEDIO",
+  "name": "junost",
+  "version": "1.2.0",
+  "description": "Junost project - objective grades for the development of digital professionals, proposed and developed by the professional community. Made by ANMEDIO",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=development gulp",
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --mode=development --hot --inline --host localhost --port 8080",
-    "static-build": "cross-env NODE_ENV=development gulp build",
-    "react-build": "cross-env NODE_ENV=production webpack --mode=production",
-    "react-dev-build": "cross-env NODE_ENV=production webpack --mode=development",
-    "build": "npm run static-build && npm run react-build",
+    "gulp:start": "cross-env NODE_ENV=development gulp",
+    "react:start": "cross-env NODE_ENV=development webpack-dev-server --mode=development --hot --inline --host localhost --port 8080",
+    "gulp-build:development": "cross-env NODE_ENV=development gulp build",
+    "react-build:development": "cross-env NODE_ENV=development webpack --mode=development",
+    "build:development": "npm run gulp-build:development && npm run react-build:development",
+    "gulp-build:production": "cross-env NODE_ENV=production gulp build",
+    "react-build:production": "cross-env NODE_ENV=production webpack --mode=production",
+    "build:production": "npm run gulp-build:production && npm run react-build:production",
     "lint": "eslint src -c .eslintrc --ext js,jsx",
     "lint-fix": "eslint src -c .eslintrc --ext js,jsx --fix"
   },
@@ -24,6 +26,13 @@
     "anmedio"
   ],
   "author": "Artyom Ivanov",
+  "contributors": [
+    {
+      "name": "nikolasmelui",
+      "email": "slak@samaradom.ru",
+      "url": "https://nikolasmelui.beer4.ru/"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/anmedio/grades/issues"
