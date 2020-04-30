@@ -12,7 +12,7 @@ import {
   http,
   javascriptAdvanced,
   jest,
-  jsDoc,
+  jsdoc,
   linuxBasics,
   developmentPatterns,
   nextjs,
@@ -38,7 +38,7 @@ import {
 export default [
   javascriptAdvanced,
   typescript,
-  jsDoc,
+  jsdoc,
   jest,
   vuetify,
   flux,
