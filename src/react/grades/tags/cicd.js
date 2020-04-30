@@ -12,6 +12,10 @@ const cicd = {
       name: 'Статья на MDN (TLDR)',
     },
     {
+      url: 'https://about.gitlab.com/devops-tools/',
+      name: 'Comparison of DevOps Tools',
+    },
+    {
       url: 'https://docs.gitlab.com/ee/ci/',
       name: 'Официальная документация GitLab CI/CD',
     },
