@@ -15,6 +15,10 @@ const cyberSecurityBasics = {
         'https://www.youtube.com/watch?v=rSp2cpAI4Tc&list=PLdJo1XilUTZPOJ1kSnoKheT7YSygP9FIO',
       name: 'Яндекс - "Безопасность"',
     },
+    {
+      url: 'https://owasp.org/',
+      name: 'OWASP Foundation Website',
+    },
   ],
 };
 

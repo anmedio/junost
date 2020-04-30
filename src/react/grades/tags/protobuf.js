@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 const protobuf = {
-  // TODO: Добавить линки
+  // TODO: Добавить материалы
   tag: 'Protobuf',
   name: 'Protobuf',
   text:

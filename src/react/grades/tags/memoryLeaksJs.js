@@ -1,8 +1,8 @@
 /* eslint-disable max-len */
 
 const memoryLeaksJs = {
-  tag: 'Memory leaks',
-  name: 'Memory leaks',
+  tag: 'Javascript memory leaks',
+  name: 'Javascript memory leaks',
   text:
     'Утечки памяти - (англ. memory leak) — процесс неконтролируемого уменьшения объёма свободной оперативной или виртуальной памяти компьютера, связанный с ошибками в работающих программах, вовремя не освобождающих ненужные участки памяти, или с ошибками системных служб контроля памяти.',
   links: [

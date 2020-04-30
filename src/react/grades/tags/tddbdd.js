@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
 
-const tdd = {
+const tddbdd = {
   tag: 'TDD / BDD',
   name: 'TDD / BDD',
   text:
@@ -24,4 +24,4 @@ const tdd = {
   ],
 };
 
-export default tdd;
+export default tddbdd;

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 const grpc = {
-  // TODO: Добавить линки
+  // TODO: Добавить материалы
   tag: 'gRPC',
   name: 'gRPC',
   text:
