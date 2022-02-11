@@ -74,7 +74,7 @@
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-pngquant": "^7.0.0",
     "imagemin-svgo": "^7.0.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "react-hot-loader": "^4.8.2",
     "prettier": "^1.16.4",
     "style-loader": "^0.23.1",
