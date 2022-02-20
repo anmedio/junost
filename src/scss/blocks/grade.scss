@@ -192,6 +192,8 @@
   }
 
   &__wrap {
+    overflow-x: auto;
+
     // Media
     @include grid-media($md-grid) {
       display: flex;
